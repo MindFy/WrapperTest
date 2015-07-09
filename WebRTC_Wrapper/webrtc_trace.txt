@@ -1,0 +1,263 @@
+Local Date: Ng  Local Time: 1
+Build info: Mar 23 2015 10:54:24 d
+
+DEBUGINFO ; ( 9:29:11:620 |99999) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::CoreAudioIsSupported
+DEBUGINFO ; ( 9:29:11:647 |   24) AUDIO DEVICE:         -1;      6864; AudioDeviceWindowsCore::CoreAudioIsSupported() CoCreateInstance(MMDeviceEnumerator) succeeded
+MEMORY    ; ( 9:29:11:647 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::AudioDeviceWindowsCore created
+DEBUGINFO ; ( 9:29:11:648 |    1) AUDIO DEVICE:         -1;      6864; AudioDeviceWindowsCore::AudioDeviceWindowsCore() The Avrt DLL module is now loaded
+DEBUGINFO ; ( 9:29:11:648 |    0) AUDIO DEVICE:         -1;      6864; AudioDeviceWindowsCore::AudioDeviceWindowsCore() AvRevertMmThreadCharacteristics() is OK
+DEBUGINFO ; ( 9:29:11:648 |    0) AUDIO DEVICE:         -1;      6864; AudioDeviceWindowsCore::AudioDeviceWindowsCore() AvSetMmThreadCharacteristicsA() is OK
+DEBUGINFO ; ( 9:29:11:648 |    0) AUDIO DEVICE:         -1;      6864; AudioDeviceWindowsCore::AudioDeviceWindowsCore() AvSetMmThreadPriority() is OK
+DEBUGINFO ; ( 9:29:11:654 |    6) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_EnumerateEndpointDevicesAll
+DEBUGINFO ; ( 9:29:11:654 |    0) AUDIO DEVICE:         -1;      6864; #rendering endpoint devices (counting all): 2
+DEBUGINFO ; ( 9:29:11:654 |    0) AUDIO DEVICE:         -1;      6864; Endpoint 0:
+DEBUGINFO ; ( 9:29:11:654 |    0) AUDIO DEVICE:         -1;      6864; ID string    : {0.0.0.00000000}.{323cc465-9773-43af-a5f3-9c1622f0eae0}
+DEBUGINFO ; ( 9:29:11:655 |    1) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:655 |    0) AUDIO DEVICE:         -1;      6864; state (0x1)  : *ACTIVE*
+DEBUGINFO ; ( 9:29:11:657 |    2) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:657 |    0) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:657 |    0) AUDIO DEVICE:         -1;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:657 |    0) AUDIO DEVICE:         -1;      6864; volume range : -46.50 (min), 0.00 (max), 0.25 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:657 |    0) AUDIO DEVICE:         -1;      6864; #intervals   : 186
+DEBUGINFO ; ( 9:29:11:657 |    0) AUDIO DEVICE:         -1;      6864; volume steps : 25 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:658 |    1) AUDIO DEVICE:         -1;      6864; Endpoint 1:
+DEBUGINFO ; ( 9:29:11:658 |    0) AUDIO DEVICE:         -1;      6864; ID string    : {0.0.0.00000000}.{bcd0ba66-f3d0-4540-94ff-b60e28c35fe9}
+DEBUGINFO ; ( 9:29:11:658 |    0) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:658 |    0) AUDIO DEVICE:         -1;      6864; state (0x2)  : DISABLED
+DEBUGINFO ; ( 9:29:11:659 |    1) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; volume range : -64.00 (min), 0.00 (max), 0.03 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; #intervals   : 2048
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; volume steps : 23 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_EnumerateEndpointDevicesAll
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; #capturing endpoint devices (counting all): 4
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; Endpoint 0:
+DEBUGINFO ; ( 9:29:11:659 |    0) AUDIO DEVICE:         -1;      6864; ID string    : {0.0.1.00000000}.{094e9b5c-fb0c-468a-a680-06eb03e93979}
+DEBUGINFO ; ( 9:29:11:660 |    1) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; state (0x8)  : UNPLUGGED
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; volume range : -13.50 (min), 22.50 (max), 0.03 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; #intervals   : 1152
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; volume steps : 50 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; Endpoint 1:
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; ID string    : {0.0.1.00000000}.{6456c879-e0cc-4e0c-ad80-cd8ec25ba123}
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; state (0x1)  : *ACTIVE*
+DEBUGINFO ; ( 9:29:11:660 |    0) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:661 |    1) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; volume range : -13.50 (min), 22.50 (max), 0.03 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; #intervals   : 1152
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; volume steps : 35 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; Endpoint 2:
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; ID string    : {0.0.1.00000000}.{6c3e95e0-74c9-4789-bf1d-623c34fa8020}
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; state (0x2)  : DISABLED
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; volume range : -13.50 (min), 12.00 (max), 0.03 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; #intervals   : 816
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; volume steps : 19 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; Endpoint 3:
+DEBUGINFO ; ( 9:29:11:661 |    0) AUDIO DEVICE:         -1;      6864; ID string    : {0.0.1.00000000}.{9eb25cbc-1a3a-45ee-b783-b7b1af180184}
+DEBUGINFO ; ( 9:29:11:662 |    1) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:662 |    0) AUDIO DEVICE:         -1;      6864; state (0x1)  : *ACTIVE*
+DEBUGINFO ; ( 9:29:11:662 |    0) AUDIO DEVICE:         -1;      6864; hwmask (0x1) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:662 |    0) AUDIO DEVICE:         -1;      6864; #channels    : 1
+DEBUGINFO ; ( 9:29:11:662 |    0) AUDIO DEVICE:         -1;      6864; volume range : -96.00 (min), 22.50 (max), 0.25 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:662 |    0) AUDIO DEVICE:         -1;      6864; #intervals   : 474
+DEBUGINFO ; ( 9:29:11:662 |    0) AUDIO DEVICE:         -1;      6864; volume steps : 25 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:662 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:663 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:663 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:664 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:664 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_GetDeviceName
+DEBUGINFO ; ( 9:29:11:664 |    0) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:664 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:665 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:666 |    1) AUDIO DEVICE:         -1;      6864; Audio Engine's current capturing mix format:
+DEBUGINFO ; ( 9:29:11:666 |    0) AUDIO DEVICE:         -1;      6864; wFormatTag     : 0xFFFE (65534)
+DEBUGINFO ; ( 9:29:11:666 |    0) AUDIO DEVICE:         -1;      6864; nChannels      : 2
+DEBUGINFO ; ( 9:29:11:666 |    0) AUDIO DEVICE:         -1;      6864; nSamplesPerSec : 48000
+DEBUGINFO ; ( 9:29:11:666 |    0) AUDIO DEVICE:         -1;      6864; nAvgBytesPerSec: 384000
+DEBUGINFO ; ( 9:29:11:666 |    0) AUDIO DEVICE:         -1;      6864; nBlockAlign    : 8
+DEBUGINFO ; ( 9:29:11:666 |    0) AUDIO DEVICE:         -1;      6864; wBitsPerSample : 32
+DEBUGINFO ; ( 9:29:11:666 |    0) AUDIO DEVICE:         -1;      6864; cbSize         : 22
+DEBUGINFO ; ( 9:29:11:669 |    3) AUDIO DEVICE:         -1;      6864; VoE selected this capturing format:
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; wFormatTag        : 0x1 (1)
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; nChannels         : 2
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; nSamplesPerSec    : 48000
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; nAvgBytesPerSec   : 192000
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; nBlockAlign       : 4
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; wBitsPerSample    : 16
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; cbSize            : 0
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; Additional settings:
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; _recAudioFrameSize: 4
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; _recBlockSize     : 480
+DEBUGINFO ; ( 9:29:11:669 |    0) AUDIO DEVICE:         -1;      6864; _recChannels      : 2
+DEBUGINFO ; ( 9:29:11:698 |   29) AUDIO DEVICE:         -1;      6864; AudioDeviceBuffer must be attached before streaming can start
+DEBUGINFO ; ( 9:29:11:698 |    0) AUDIO DEVICE:         -1;      6864; IAudioClient::GetBufferSize() => 960 (<=> 3840 bytes)
+DEBUGINFO ; ( 9:29:11:698 |    0) AUDIO DEVICE:         -1;      6864; capture side is now initialized
+DEBUGINFO ; ( 9:29:11:698 |    0) AUDIO DEVICE:         -1;      6864; no capturing stream is active => close down WASAPI only
+DEBUGINFO ; ( 9:29:11:700 |    2) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:701 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:701 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:702 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:702 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_GetDeviceName
+DEBUGINFO ; ( 9:29:11:703 |    1) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:703 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:703 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:704 |    1) AUDIO DEVICE:         -1;      6864; Audio Engine's current capturing mix format:
+DEBUGINFO ; ( 9:29:11:704 |    0) AUDIO DEVICE:         -1;      6864; wFormatTag     : 0xFFFE (65534)
+DEBUGINFO ; ( 9:29:11:704 |    0) AUDIO DEVICE:         -1;      6864; nChannels      : 2
+DEBUGINFO ; ( 9:29:11:704 |    0) AUDIO DEVICE:         -1;      6864; nSamplesPerSec : 44100
+DEBUGINFO ; ( 9:29:11:704 |    0) AUDIO DEVICE:         -1;      6864; nAvgBytesPerSec: 352800
+DEBUGINFO ; ( 9:29:11:704 |    0) AUDIO DEVICE:         -1;      6864; nBlockAlign    : 8
+DEBUGINFO ; ( 9:29:11:704 |    0) AUDIO DEVICE:         -1;      6864; wBitsPerSample : 32
+DEBUGINFO ; ( 9:29:11:705 |    1) AUDIO DEVICE:         -1;      6864; cbSize         : 22
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; nChannels=2, nSamplesPerSec=48000 is not supported
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; nChannels=1, nSamplesPerSec=48000 is not supported
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; VoE selected this capturing format:
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; wFormatTag        : 0x1 (1)
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; nChannels         : 2
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; nSamplesPerSec    : 44100
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; nAvgBytesPerSec   : 176400
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; nBlockAlign       : 4
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; wBitsPerSample    : 16
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; cbSize            : 0
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; Additional settings:
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; _recAudioFrameSize: 4
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; _recBlockSize     : 441
+DEBUGINFO ; ( 9:29:11:705 |    0) AUDIO DEVICE:         -1;      6864; _recChannels      : 2
+DEBUGINFO ; ( 9:29:11:729 |   24) AUDIO DEVICE:         -1;      6864; AudioDeviceBuffer must be attached before streaming can start
+DEBUGINFO ; ( 9:29:11:729 |    0) AUDIO DEVICE:         -1;      6864; IAudioClient::GetBufferSize() => 882 (<=> 3528 bytes)
+DEBUGINFO ; ( 9:29:11:729 |    0) AUDIO DEVICE:         -1;      6864; capture side is now initialized
+DEBUGINFO ; ( 9:29:11:729 |    0) AUDIO DEVICE:         -1;      6864; no capturing stream is active => close down WASAPI only
+DEBUGINFO ; ( 9:29:11:771 |   42) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:771 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:772 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:772 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:772 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:773 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:773 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_GetDeviceName
+DEBUGINFO ; ( 9:29:11:773 |    0) AUDIO DEVICE:         -1;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:774 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; Audio Engine's current rendering mix format:
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; wFormatTag     : 0xFFFE (65534)
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; nChannels      : 2
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; nSamplesPerSec : 44100
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; nAvgBytesPerSec: 352800
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; nBlockAlign    : 8
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; wBitsPerSample : 32
+DEBUGINFO ; ( 9:29:11:774 |    0) AUDIO DEVICE:         -1;      6864; cbSize         : 22
+DEBUGINFO ; ( 9:29:11:775 |    1) AUDIO DEVICE:         -1;      6864; nChannels=2, nSamplesPerSec=48000 is not supported
+DEBUGINFO ; ( 9:29:11:776 |    1) AUDIO DEVICE:         -1;      6864; nChannels=1, nSamplesPerSec=48000 is not supported
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; VoE selected this rendering format:
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; wFormatTag         : 0x1 (1)
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; nChannels          : 2
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; nSamplesPerSec     : 44100
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; nAvgBytesPerSec    : 176400
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; nBlockAlign        : 4
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; wBitsPerSample     : 16
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; cbSize             : 0
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; Additional settings:
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; _playAudioFrameSize: 4
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; _playBlockSize     : 441
+DEBUGINFO ; ( 9:29:11:776 |    0) AUDIO DEVICE:         -1;      6864; _playChannels      : 2
+DEBUGINFO ; ( 9:29:11:779 |    3) AUDIO DEVICE:         -1;      6864; AudioDeviceBuffer must be attached before streaming can start
+DEBUGINFO ; ( 9:29:11:779 |    0) AUDIO DEVICE:         -1;      6864; IAudioClient::GetBufferSize() => 1323 (<=> 5292 bytes)
+DEBUGINFO ; ( 9:29:11:779 |    0) AUDIO DEVICE:         -1;      6864; render side is now initialized
+DEBUGINFO ; ( 9:29:11:779 |    0) AUDIO DEVICE:         -1;      6864; no rendering stream is active => close down WASAPI only
+DEBUGINFO ; ( 9:29:11:780 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:780 |    0) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::_DeviceListCount
+MEMORY    ; ( 9:29:11:781 |    1) AUDIO DEVICE:         -1;      6864; webrtc::AudioDeviceWindowsCore::~AudioDeviceWindowsCore destroyed
+WARNING   ; ( 9:29:11:781 |    0) AUDIO DEVICE:         -1;      6864; AudioDeviceWindowsCore::~AudioDeviceWindowsCore() the Avrt DLL module is now unloaded
+STATEINFO ; ( 9:29:11:781 |    0) AUDIO DEVICE:         -1;      6864; *** Windows Core Audio is supported ***
+MEMORY    ; ( 9:29:11:782 |    1) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::AudioDeviceWindowsCore created
+DEBUGINFO ; ( 9:29:11:782 |    0) AUDIO DEVICE:    1    99;      6864; AudioDeviceWindowsCore::AudioDeviceWindowsCore() The Avrt DLL module is now loaded
+DEBUGINFO ; ( 9:29:11:782 |    0) AUDIO DEVICE:    1    99;      6864; AudioDeviceWindowsCore::AudioDeviceWindowsCore() AvRevertMmThreadCharacteristics() is OK
+DEBUGINFO ; ( 9:29:11:782 |    0) AUDIO DEVICE:    1    99;      6864; AudioDeviceWindowsCore::AudioDeviceWindowsCore() AvSetMmThreadCharacteristicsA() is OK
+DEBUGINFO ; ( 9:29:11:782 |    0) AUDIO DEVICE:    1    99;      6864; AudioDeviceWindowsCore::AudioDeviceWindowsCore() AvSetMmThreadPriority() is OK
+MEMORY    ; ( 9:29:11:784 |    2) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceUtilityWindows::AudioDeviceUtilityWindows created
+STATEINFO ; ( 9:29:11:785 |    1) AUDIO DEVICE:    1    99;      6864;   OS info: Microsoft Windows 7  Service Pack 1 (build 7601), 64-bit
+DEBUGINFO ; ( 9:29:11:785 |    0) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::_EnumerateEndpointDevicesAll
+DEBUGINFO ; ( 9:29:11:785 |    0) AUDIO DEVICE:    1    99;      6864; #rendering endpoint devices (counting all): 2
+DEBUGINFO ; ( 9:29:11:785 |    0) AUDIO DEVICE:    1    99;      6864; Endpoint 0:
+DEBUGINFO ; ( 9:29:11:785 |    0) AUDIO DEVICE:    1    99;      6864; ID string    : {0.0.0.00000000}.{323cc465-9773-43af-a5f3-9c1622f0eae0}
+DEBUGINFO ; ( 9:29:11:786 |    1) AUDIO DEVICE:    1    99;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; state (0x1)  : *ACTIVE*
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; volume range : -46.50 (min), 0.00 (max), 0.25 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; #intervals   : 186
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; volume steps : 25 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; Endpoint 1:
+DEBUGINFO ; ( 9:29:11:786 |    0) AUDIO DEVICE:    1    99;      6864; ID string    : {0.0.0.00000000}.{bcd0ba66-f3d0-4540-94ff-b60e28c35fe9}
+DEBUGINFO ; ( 9:29:11:787 |    1) AUDIO DEVICE:    1    99;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; state (0x2)  : DISABLED
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; volume range : -64.00 (min), 0.00 (max), 0.03 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; #intervals   : 2048
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; volume steps : 23 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::_EnumerateEndpointDevicesAll
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; #capturing endpoint devices (counting all): 4
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; Endpoint 0:
+DEBUGINFO ; ( 9:29:11:787 |    0) AUDIO DEVICE:    1    99;      6864; ID string    : {0.0.1.00000000}.{094e9b5c-fb0c-468a-a680-06eb03e93979}
+DEBUGINFO ; ( 9:29:11:788 |    1) AUDIO DEVICE:    1    99;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; state (0x8)  : UNPLUGGED
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; volume range : -13.50 (min), 22.50 (max), 0.03 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; #intervals   : 1152
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; volume steps : 50 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; Endpoint 1:
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; ID string    : {0.0.1.00000000}.{6456c879-e0cc-4e0c-ad80-cd8ec25ba123}
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; state (0x1)  : *ACTIVE*
+DEBUGINFO ; ( 9:29:11:788 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:789 |    1) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:789 |    0) AUDIO DEVICE:    1    99;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:789 |    0) AUDIO DEVICE:    1    99;      6864; volume range : -13.50 (min), 22.50 (max), 0.03 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:789 |    0) AUDIO DEVICE:    1    99;      6864; #intervals   : 1152
+DEBUGINFO ; ( 9:29:11:789 |    0) AUDIO DEVICE:    1    99;      6864; volume steps : 35 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:789 |    0) AUDIO DEVICE:    1    99;      6864; Endpoint 2:
+DEBUGINFO ; ( 9:29:11:789 |    0) AUDIO DEVICE:    1    99;      6864; ID string    : {0.0.1.00000000}.{6c3e95e0-74c9-4789-bf1d-623c34fa8020}
+DEBUGINFO ; ( 9:29:11:790 |    1) AUDIO DEVICE:    1    99;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:790 |    0) AUDIO DEVICE:    1    99;      6864; state (0x2)  : DISABLED
+DEBUGINFO ; ( 9:29:11:790 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:790 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+DEBUGINFO ; ( 9:29:11:791 |    1) AUDIO DEVICE:    1    99;      6864; #channels    : 2
+DEBUGINFO ; ( 9:29:11:791 |    0) AUDIO DEVICE:    1    99;      6864; volume range : -13.50 (min), 12.00 (max), 0.03 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:791 |    0) AUDIO DEVICE:    1    99;      6864; #intervals   : 816
+DEBUGINFO ; ( 9:29:11:791 |    0) AUDIO DEVICE:    1    99;      6864; volume steps : 19 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:791 |    0) AUDIO DEVICE:    1    99;      6864; Endpoint 3:
+DEBUGINFO ; ( 9:29:11:791 |    0) AUDIO DEVICE:    1    99;      6864; ID string    : {0.0.1.00000000}.{9eb25cbc-1a3a-45ee-b783-b7b1af180184}
+DEBUGINFO ; ( 9:29:11:793 |    2) AUDIO DEVICE:    1    99;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:793 |    0) AUDIO DEVICE:    1    99;      6864; state (0x1)  : *ACTIVE*
+DEBUGINFO ; ( 9:29:11:793 |    0) AUDIO DEVICE:    1    99;      6864; hwmask (0x1) : HARDWARE_SUPPORT_VOLUME
+DEBUGINFO ; ( 9:29:11:793 |    0) AUDIO DEVICE:    1    99;      6864; #channels    : 1
+DEBUGINFO ; ( 9:29:11:793 |    0) AUDIO DEVICE:    1    99;      6864; volume range : -96.00 (min), 22.50 (max), 0.25 (inc) [dB]
+DEBUGINFO ; ( 9:29:11:793 |    0) AUDIO DEVICE:    1    99;      6864; #intervals   : 474
+DEBUGINFO ; ( 9:29:11:793 |    0) AUDIO DEVICE:    1    99;      6864; volume steps : 25 (nStep), 51 (nStepCount)
+DEBUGINFO ; ( 9:29:11:793 |    0) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:793 |    0) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::_GetDeviceName
+DEBUGINFO ; ( 9:29:11:794 |    1) AUDIO DEVICE:    1    99;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:794 |    0) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::_GetDefaultDevice
+DEBUGINFO ; ( 9:29:11:795 |    1) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::_RefreshDeviceList
+DEBUGINFO ; ( 9:29:11:796 |    1) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::_GetDeviceName
+DEBUGINFO ; ( 9:29:11:797 |    1) AUDIO DEVICE:    1    99;      6864; friendly name: "
+DEBUGINFO ; ( 9:29:11:797 |    0) AUDIO DEVICE:    1    99;      6864; webrtc::AudioDeviceWindowsCore::_GetDefaultDevice
+DEBUG     ; ( 9:29:11:803 |    6)    TRANSPORT:    0     0;      6864; UdpSocket2ManagerWindows(0)::Start()
+MEMORY    ; ( 9:29:11:803 |    0)    TRANSPORT:         -1;      6864; UdpSocket2WorkerWindows created
+DEBUG     ; ( 9:29:11:803 |    0)    TRANSPORT:    0     0;      6864; UdpSocket2ManagerWindows::StartWorkerThreads 1 number of work threads created and initialized
+STATEINFO ; ( 9:29:11:803 |    0)    TRANSPORT:         -1;      6864; Start UdpSocket2WorkerWindows
+MEMORY    ; ( 9:29:11:804 |    1)    TRANSPORT:    0     0;      6864; webrtc::test::UdpTransportImpl::UdpTransportImpl created
